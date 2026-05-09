@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portofolio_Delon_Christiano_Poluakan</title>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body bgcolor="skyblue">
@@ -49,11 +49,11 @@
     <table width="100%">
         <tr>
             <td align="center">
-                <img src="Gambar_13.jpg" width="250" height="300">
+                <img src="Pictures/Gambar_13.jpg" width="250" height="300">
             </td>
 
             <td align="center">
-                <img src="Gambar_14.jpg" width="250" height="300">
+                <img src="Pictures/Gambar_14.jpg" width="250" height="300">
             </td>
         </tr>
     </table>
@@ -83,12 +83,12 @@
     <table width="100%">
         <tr>
             <td align="center">
-                <img src="Gambar_15.jpg" width="250" height="300">
+                <img src="Pictures/Gambar_15.jpg" width="250" height="300">
             </td>
 
             <td align="center">
                 <video width="190" controls>
-                    <source src="Video_1.mp4" type="video/mp4">
+                    <source src="Pictures/Video_1.mp4" type="video/mp4">
                 </video>
             </td>
         </tr>
@@ -119,11 +119,11 @@
     <table width="100%">
         <tr>
             <td align="center">
-                <img src="Gambar_16.jpg" width="250" height="300">
+                <img src="Pictures/Gambar_16.jpg" width="250" height="300">
             </td>
 
             <td align="center">
-                <img src="Gambar_17.jpg" width="250" height="300">
+                <img src="Pictures/Gambar_17.jpg" width="250" height="300">
             </td>
         </tr>
     </table>
@@ -154,12 +154,12 @@
     <table width="100%">
         <tr>
             <td align="center">
-                <img src="Gambar_18.jpg" width="250" height="300">
+                <img src="Pictures/Gambar_18.jpg" width="250" height="300">
             </td>
 
             <td align="center">
                 <video width="190" controls>
-                    <source src="Video_2.mp4" type="video/mp4">
+                    <source src="Pictures/Video_2.mp4" type="video/mp4">
                 </video>
             </td>
         </tr>
@@ -177,6 +177,11 @@
             </td>
         </tr>
     </table>   
-    
+    <div id="modal" class="modal">
+    <span class="close-modal" onclick="closeModal()">&times;</span>
+    <img id="modal-img" class="modal-content">
+    <video id="modal-video" class="modal-content" controls></video>
+</div>
+    <script src="script.js"></script>
 </body>
 </html>
